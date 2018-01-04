@@ -18,3 +18,5 @@ function createFareMultiplier(mulitiplier) {
     return fare * mulitiplier
   }
 }
+
+const fareDoubler = createFareMultiplier(2);
