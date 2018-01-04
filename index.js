@@ -10,3 +10,5 @@ const returnLastTwoDrivers = function (drivers) {
   copy.push(drivers[drivers.length - 2], drivers[drivers.length - 1])
   return copy
 }
+
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
